@@ -15,11 +15,11 @@
 # Conditional build:
 Summary:	Asterisk PBX
 Name:		asterisk
-Version:	14.6.1
+Version:	13.13.6
 Release:	1
 License:	GPL v2
 Group:		Applications/System
-Source0:	https://downloads.asterisk.org/pub/telephony/asterisk/releases/%{name}-%{version}.tar.gz
+Source0:	https://github.com/asterisk/asterisk/archive/certified/13.13-cert6.tar.gz
 # Source0-md5:	d980162e8a7be13fd85dbab81e7d0bfe
 Source2:	%{name}.sysconfig
 Source3:	%{name}.tmpfiles

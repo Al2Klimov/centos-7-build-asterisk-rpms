@@ -66,7 +66,7 @@ for (@sources) {
 	}
 
 	if (-e) {
-		if ($_ eq "$name-$version.tar.gz") {
+		if (/\.tar\.gz$/) {
 			# The main source tarball -- mix with the local sources directory
 			# (Assume that the local sources will be packed
 			# to a tarball by another preparation script)
